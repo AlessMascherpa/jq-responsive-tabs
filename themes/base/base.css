@@ -1,0 +1,11 @@
+.rtabsNav,.rtabsNavItem{margin: 0; padding: 0;}
+.rtabsNavItem{list-style: none;}
+.rtabsPanel{display:none;}
+.rtabsPanel.active{display:block;}
+.rtabsH .rtabsNavItem{display: inline;}
+.rtabsH .rtabsNavItem a{padding: 10px;}
+
+.rtabsV .rtabsNav, .rtabsV .rtabsPanel{float:left;}
+.rtabsV .rtabsNav{width:30%}
+.rtabsV .rtabsPanel{width:70%}
+.rtabsV .rtabsNavItem a{padding: 10px;}
