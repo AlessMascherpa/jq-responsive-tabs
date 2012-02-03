@@ -1,13 +1,12 @@
-.rtabsNav,.rtabsNavItem{margin: 0; padding: 0;}
-.rtabsNavItem{list-style: none;}
-.rtabsPanel{display:none;}
-.rtabsPanel.active{display:block;}
-.rtabsH .rtabsNavItem{display: inline;}
-.rtabsH .rtabsNavItem a{padding: 10px;}
-
-.rtabsV .rtabsNav, .rtabsV .rtabsPanel{float:left;}
-.rtabsV .rtabsNav{width:30%}
-.rtabsV .rtabsPanel{width:70%}
-.rtabsV .rtabsNavItem a{padding: 10px;}
-
-.raccordeon .rtabsNavItem{background: url(images/arrowdown.png) no-repeat scroll 95% 1% transparent;} 
+.rtabsNav,.rtabsNavItem{margin:0;padding:0;}
+.rtabsNavItem{list-style:none;}
+.rtabsPanel{display:none;}.rtabsPanel.active{display:block;}
+.rtabsH .rtabsNavItem{display:inline;}
+.rtabsH .rtabsNavItem a{padding:10px;}
+.rtabsV .rtabsNav,.rtabsV .rtabsPanel{float:left;}
+.rtabsV .rtabsNav{width:30%;}
+.rtabsV .rtabsPanel{width:70%;}
+.rtabsV .rtabsNavItem a{padding:10px;}
+.raccordeon .rtabsNav{width:100%;float:left;}
+.raccordeon .rtabsNavItem{background:url(images/arrowright.png) no-repeat scroll 95% 1% transparent;width:100%;border:1px solid;float:left;}
+.raccordeon .rtabsNavItem.active{background:url(images/arrowdown.png) no-repeat scroll 95% 1% transparent;}
