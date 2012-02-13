@@ -3,6 +3,7 @@
 .rtabsPanel{display:none;}.rtabsPanel.active{display:block;}
 .rtabsH .rtabsNavItem{display:inline;}
 .rtabsH .rtabsNavItem a{padding:10px;}
+.mouseover{display:block;}
 .rtabsV .rtabsNav,.rtabsV .rtabsPanel{float:left;}
 .rtabsV .rtabsNav{width:30%;}
 .rtabsV .rtabsPanel{width:70%;}
@@ -10,4 +11,4 @@
 .raccordeon .rtabsNav{width:100%;float:left;}
 .raccordeon .rtabsNavItem{background:url(images/arrowright.png) no-repeat scroll 95% 1% transparent;width:100%;border:1px solid;float:left;}
 .raccordeon .rtabsNavItem.active{background:url(images/arrowdown.png) no-repeat scroll 95% 1% transparent;}
-@media screen and (max-width: 320px){.rtabsPanel,.rtabsNavItem a{font-size:2.8em;}}@media screen and (max-width: 480px){.rtabsPanel,.rtabsNavItem{font-size:3em;}}
+@media screen and (max-width: 320px){.rtabsPanel,.rtabsNavItem a{font-size:1.8em;}}@media screen and (max-width: 480px){.rtabsPanel,.rtabsNavItem{font-size:2em;}}
